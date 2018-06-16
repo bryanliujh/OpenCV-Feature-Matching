@@ -37,7 +37,6 @@ def testView(request):
             good.append([m])
 
     # cv2.drawMatchesKnn expects list of lists as matches.
-
     img3 = cv2.drawMatchesKnn(image1_gray, kp1, image2_gray, kp2, good, None, flags=2)
 
     #add text to the image to display no of matches
