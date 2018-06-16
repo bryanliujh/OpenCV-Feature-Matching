@@ -1,8 +1,5 @@
-from django.shortcuts import render
-
 # Create your views here.
 import cv2
-import numpy as np
 import matplotlib.pyplot as plt
 from django.http import HttpResponse
 import io
